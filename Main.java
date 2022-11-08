@@ -4,13 +4,17 @@ public class Main{
   public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
 
-	System.out.println("身長を入力してください。");
+	System.out.print("ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ");
 	double height = s.nextDouble();
-	System.out.println("体重を入力してください。");	
+	System.out.print("ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ");	
 	double weight = s.nextDouble();
-
+	System.out.print("ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ");
+	double height2 = s.nextDouble();
+	System.out.print("ｿｿｿｿｿｿｿｿｿｿｿｿｿｿｿ");
+	double weight2 = s.nextDouble();
 	double bmi = weight / (height*height);
-
-	System.out.println("BMIの数値は" + ((Math.floor(bmi*100))/100) + "です。");
+	double bmi2 = weight2 / (height*height);
+	System.out.println("ｿｿｿｿBMIｿｿｿｿ" + ((Math.floor(bmi*100))/100) + "ｿｿｿ");
+	System.out.println("ｿｿｿｿBMIｿｿｿｿ" + ((Math.floor(bmi*100))/100) + "ｿｿｿ");
   }
 }
